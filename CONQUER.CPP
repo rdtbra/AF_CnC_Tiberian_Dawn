@@ -136,6 +136,7 @@ extern int TotalLocks;
 extern bool Spawn_WChat(bool can_launch);
 extern bool SpawnedFromWChat;
 void Main_Game(int argc, char *argv[])
+/* RDT: 20250816 - Ponto de entrada do Game. */
 {
 	bool fade = false;	// don't fade title screen the first time through
 
